@@ -8,14 +8,11 @@ int main()
     {
         scanf("%d", &arrA[i]);
     }
-    printf("    .   .   .   .   .   ");
     scanf("%d", &m);
     for (i = 0; i < m; i++)
     {
         scanf("%d", &arrB[i]);
     }
-    printf("    .   .   .   .   .   ");
-
     for (i = 0; i < n; i++)
     {
         if (arrB[0] == arrA[i])
