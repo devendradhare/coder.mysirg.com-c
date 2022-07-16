@@ -14,7 +14,7 @@ int reduce(int arr[], int n, int x)
             return i;
         }
     }
-    return 0;
+    return -1;
 }
 int reduce2(int arr[], int n, int r, int x)
 {
@@ -24,7 +24,7 @@ int reduce2(int arr[], int n, int r, int x)
     {
         return 1;
     }
-    return 0;
+    return -1;
 }
 int combination(int arr[], int data[], int start, int end, int index, int r, int x)
 {
@@ -39,7 +39,7 @@ int combination(int arr[], int data[], int start, int end, int index, int r, int
         {
             return 1;
         }
-        return 0;
+        return -1;
     }
     for (i = start; i <= end && end - i + 1 >= r - index; i++)
     {
@@ -50,7 +50,7 @@ int combination(int arr[], int data[], int start, int end, int index, int r, int
             return 1;
         }
     }
-    return 0;
+    return -1;
 }
 int main()
 {
